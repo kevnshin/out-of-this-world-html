@@ -84,7 +84,6 @@ header {
   background-size: cover;
   background-attachment: fixed;
   background-position: 40% 0%;
-  margin: auto;
   padding: 40px 80px;
 
 }
@@ -102,7 +101,7 @@ header {
   margin: auto;
   max-width: 600px;
   /*margin: 50px 550px;*/
-  padding-bottom: 20px;
+  padding: 30px 0px;
   border-bottom: 3px solid white;
 }
 
