@@ -83,6 +83,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: 40% 0%;
   padding: 40px 80px;
 
 }
@@ -90,6 +91,7 @@ header {
 #title {
   color: #fff;
   font-size: 150px;
+
 
 }
 
@@ -103,9 +105,25 @@ header {
 
 nav {
   text-align: center;
+
 }
 
+nav li a:visited {
+  color: #fff;
 
+}
+
+nav li{
+
+  -webkit-transition: font-size 0.05s; /* For Safari 3.1 to 6.0 */
+  transition: font-size 0.05s;
+
+}
+
+nav li:hover {
+  font-size: 22px;
+
+}
 
 ul#main_nav > li.nav_item {
 
@@ -120,27 +138,21 @@ ul#main_nav > li.nav_item {
 li.has_dropdown > ul > li.nav_item {
 
   display: block;
-  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-in-out; /* For Safari 3.1 to 6.0 */
+  transition: opacity 0.3s ease-in-out;
+  /*visibility: hidden;*/
 
 }
 
 li.has_dropdown:hover > ul > li.nav_item {
-
-  visibility: visible;
-
-}
-
-
-nav li a:visited {
-  color: #fff;
+  opacity: 1;
+  /*visibility: visible;*/
 
 }
 
-nav li a:hover {
-  position: relative;
-  top: -2px;
 
-}
+
 
 
 
