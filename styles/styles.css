@@ -1,0 +1,179 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+header {
+  background-image: url('/images/cosmo1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 40px 80px;
+
+}
+
+#title {
+
+  font-family: Lato, sans-serif;
+  color: #fff;
+  font-weight: 100;
+  font-size: 150px;
+  text-align: center;
+  margin: 0px;
+  
+}
+
+#sub_heading {
+
+  font-family: Lato, calibri, sans-serif;
+  color: #fff;
+  font-weight: 100;
+  font-size: 40px;
+  text-align: center;
+  margin: 50px 500px;
+  padding-bottom: 20px;
+  border-bottom: 3px solid white;
+}
+
+nav {
+  text-align: center;
+
+
+}
+
+nav ul {
+
+padding: 0px;
+margin: 0px;
+
+}
+
+nav li {
+
+  list-style-type: none;
+  display: inline;
+  font-family: Lato, calibri, sans-serif;
+  color: #fff;
+  font-weight: 100;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav li a:visited {
+  color: #fff;
+
+}
+
+nav li a:hover {
+  position: relative;
+  top: -3px;
+
+}
+
+
+
+
+#main_content {
+
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 30px 250px;
+  font-family: Lato, calibri, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #3A3B3F;
+  text-align: center;
+
+}
+
+#section_title {
+  color: #000;
+  font-weight: 100;
+  font-size: 45px;
+  margin-bottom: 30px;
+
+}
+
+#main_content p{
+
+  padding: 10px 0px;
+
+}
+
+#side_content {
+  background-color: #2B374C; 
+  padding: 20px 250px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+
+}
+
+.side_title {
+  font-weight: 100;
+  font-size: 45px;
+  margin-bottom: 30px;
+
+}
+
+
+
+
+footer {
+  font-family: Lato, calibri, sans-serif;
+  font-weight: 100;
+  padding-top: 50px;
+  text-align: center;
+}
+
